@@ -1,0 +1,23 @@
+/*
+Theme Name: Photographe Event
+Theme URI: https://github.com/louis-Bog/Nathalie-Mota.git
+Author: Louis Beauger
+Author URI: https://github.com/louis-Bog/Nathalie-Mota.git
+Description: Thème de Nathalie Mota Photographe Event
+Template: theme-parent
+Version: 1.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: photographeEvent
+Tags: nathalie mota, photographe event, mariage, réception, concert, télévision
+*/
+
+
+.menu {
+    position: fixed;
+    top: 0px;
+  }
+  
+  .admin-bar .menu {
+    top: 32px; /* on prend en compte le décalage */
+  }
+  
