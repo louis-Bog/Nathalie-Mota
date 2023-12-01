@@ -1,13 +1,19 @@
 <?php
 
-add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
-function theme_enqueue_styles()
-{
-    wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+register_nav_menus( array(
+	'main' => 'Menu Principal',
+	'footer' => 'Bas de page',
+) );
 
-    // Chargement du style du thème enfant
-    wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/assets/css/theme.css',
-        array(),
-        '1.0'
-    );
+
+
+function photographeEvent_register_assets()
+{
+     // Chargement de la feuille du style du theme parent
+     wp_enqueue_style('parent-theme', get_template_directory_uri() . '/style.css');
+
+     // Chargement de la feuille de style complémentaire du thème enfant
+     wp_enqueue_style('photographeEvent-child-theme', get_stylesheet_directory_uri() . '/assets/css/theme.css');
 }
+
+add_action('wp_enqueue_scripts', 'photographeEvent_register_assets');

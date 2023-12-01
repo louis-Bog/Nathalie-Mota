@@ -1,0 +1,21 @@
+.header-hero {
+    position: relative;
+        background: url(../../assets/images/nathalie-11.jpeg) center/cover;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image-hero {
+        position: absolute;
+        max-width: 90%;
+        // font-size: 6rem;
+        // font-weight: 700;
+        // text-transform: uppercase;
+        // text-align: center;
+        // line-height: 5rem;
+        // color: rgba(255, 255, 255, 0.301);
+        // -webkit-text-stroke: 3px $white;
+        // -webkit-text-fill-color: transparent;
+     }
+}

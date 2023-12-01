@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'abel';
+    src: url('../fonts/abel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/abel-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 $rouge: #e00000;
 $rougeSecondaire: #FE5858;
 $rougeTertiaire: #FFD6D6;
@@ -6,3 +15,21 @@ $bleuFonce: #313144;
 $grisFonce: #C4C4C4;
 $grisMedium: #D8D8D8;
 $bleuLight: #E5E5E5;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+  }
+  body {
+    text-align: center;
+    font-family: 'abel', sans-serif;
+    border: 2px solid red;
+  }
+  a {
+    text-decoration: none;
+  }

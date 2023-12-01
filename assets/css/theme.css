@@ -1,1 +1,88 @@
-/*# sourceMappingURL=theme.css.map */
+@font-face {
+  font-family: "abel";
+  src: url("../fonts/abel-regular-webfont.woff2") format("woff2"), url("../fonts/abel-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+  font-family: "abel", sans-serif;
+  border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header .logo {
+  width: 300px;
+  margin: 0 auto;
+}
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.header ul li {
+  padding: 0 30px;
+}
+.header ul li a {
+  color: black;
+  font-weight: 600;
+}
+
+.site__footer {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.site__footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+.site__footer ul li {
+  padding: 0 50px;
+}
+.site__footer ul li a {
+  color: black;
+  font-weight: 600;
+}
+
+.header-hero {
+  position: relative;
+  background: url(../../assets/images/nathalie-11.jpeg) center/cover;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-hero .image-hero {
+  position: absolute;
+  max-width: 90%;
+}/*# sourceMappingURL=theme.css.map */
